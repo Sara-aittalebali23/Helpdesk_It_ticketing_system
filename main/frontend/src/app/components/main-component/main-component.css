@@ -1,0 +1,27 @@
+.main-container{
+    width: calc(100vw - 230px);
+    height: 85vh;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.charts-container{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5px;
+    
+
+}
+
+.charts-container app-chart-status, .charts-container app-chart-priority{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 40vh;
+    margin-top: 10px;
+    border-radius: 16px;
+    padding: 5px;
+    box-shadow: .5px .5px 4px .01px black;
+}
+

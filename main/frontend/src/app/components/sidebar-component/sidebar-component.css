@@ -1,0 +1,56 @@
+.sidebar-container{
+   
+    background-color: brown;
+    width: 210px;
+    height:calc(100vh - 20px);
+    margin: 10px;
+    border-radius: 26px;
+    background-image: linear-gradient(to right , rgb(5, 5, 133) , rgba(0, 0, 255, 0.699));
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    border-radius: 26px;
+}
+
+.logo-container img{
+    width: 250px;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.menu-container a li{
+    width: calc(100%);
+    height: calc((100vh - 5px) / 16);
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    border-radius:5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu-container a li:hover{
+    background-color: rgba(255, 255, 255, 0.247);
+    text-decoration: none;
+}
+.menu-container a li:active{
+    text-decoration: none;
+}
+
+.menu-container a li img{
+    width: 26px;
+    height: 26px;
+    margin: 5px;
+}

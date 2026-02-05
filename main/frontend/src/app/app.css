@@ -1,0 +1,13 @@
+
+.app-container {
+    display: flex; /* Keeps the sidebar and main content side by side */
+    width: 100vw;
+    height: 100vh; /* Ensures the app takes the full viewport height */
+    overflow: hidden;
+  }
+  
+  .navbar-main-sections {
+    display: flex;
+    flex-direction: column; /* Stacks the navbar and content vertically */
+    width: 100%; 
+  }

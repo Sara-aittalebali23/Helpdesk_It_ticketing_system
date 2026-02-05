@@ -1,0 +1,73 @@
+.tickets-list-container{
+    padding: 24px;
+    min-height: 100vh;
+}
+
+.table-header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #2c3e50;
+  }
+  
+  /* Wrapper for scroll on small screens */
+  .table-wrapper {
+    width: 98%;
+    max-height: 500px;
+    overflow-y: auto;
+    height: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Main table */
+  .ticket-list-container {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+  }
+  
+  /* Header */
+  .ticket-list-container thead {
+    background: #f8f9fb;
+  }
+  
+  .ticket-list-container th {
+    padding: 14px;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #555;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e6e6e6;
+  }
+  
+  /* Rows */
+  .ticket-list-container td {
+    padding: 14px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Hover effect */
+  .ticket-list-container tbody tr:hover {
+    background-color: #f9fbff;
+    transition: 0.2s ease-in-out;
+  }
+  
+  /* Title stronger */
+  .title-cell {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  /* Description shorter */
+  .desc-cell {
+    max-width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

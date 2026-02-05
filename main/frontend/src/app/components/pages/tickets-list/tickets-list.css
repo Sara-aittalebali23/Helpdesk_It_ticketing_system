@@ -1,0 +1,147 @@
+.tickets-list-container{
+    padding: 24px;
+    min-height: 100vh;
+}
+
+.table-header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #2c3e50;
+  }
+  
+  /* Wrapper for scroll on small screens */
+  .table-wrapper {
+    width: 98%;
+    max-height: 500px;
+    overflow-y: auto;
+    height: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Main table */
+  .ticket-list-container {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+  }
+  
+  /* Header */
+  .ticket-list-container thead {
+    background: #f8f9fb;
+  }
+  
+  .ticket-list-container th {
+    padding: 14px;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #555;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e6e6e6;
+  }
+  
+  /* Rows */
+  .ticket-list-container td {
+    padding: 14px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Hover effect */
+  .ticket-list-container tbody tr:hover {
+    background-color: #f9fbff;
+    transition: 0.2s ease-in-out;
+  }
+  
+  /* Title stronger */
+  .title-cell {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  /* Description shorter */
+  .desc-cell {
+    max-width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* STATUS BADGES */
+  .status {
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  /* status colors */
+  .status.open { background: #e3f2fd; color: #1976d2; }
+  .status.in_progress { background: #fff3e0; color: #ef6c00; }
+  .status.resolved { background: #e8f5e9; color: #2e7d32; }
+  .status.closed { background: #eeeeee; color: #616161; }
+  
+  /* PRIORITY BADGES */
+  .priority {
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .priority.low { background: #e8f5e9; color: #2e7d32; }
+  .priority.medium { background: #fff8e1; color: #f9a825; }
+  .priority.high { background: #ffebee; color: #c62828; }
+  .priority.urgent { background: #fce4ec; color: #ad1457; }
+
+  /* Search Bar */
+.search-bar {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 12px;
+  width: 200px;
+}
+
+/* Filter Dropdowns */
+.filter-dropdown {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 12px;
+  width: 150px;
+}
+
+/* Align search and filters */
+.table-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-btn {
+  padding: 8px 16px; /* Add padding for a comfortable click area */
+  font-size: 14px; /* Match the font size with other inputs */
+  font-weight: 600; /* Make the text slightly bold */
+  color: #ffffff; /* White text color */
+  background-color: #007bff; /* Primary blue background */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.search-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.search-btn:active {
+  background-color: #004494; /* Even darker blue when clicked */
+}
